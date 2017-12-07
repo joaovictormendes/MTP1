@@ -1,8 +1,6 @@
-#include <iostream>
 #include <stdio.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	int l, area;
 	printf ("Digite o lado do quadrado: \n")
