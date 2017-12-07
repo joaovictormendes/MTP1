@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+#include <conio.h>
 
 int main ()
 {
@@ -28,5 +28,6 @@ int main ()
 		printf ("O numero sorteado foi %f. \n", var)
 		printf ("A soma resultou em um numero impar!\n")
 	}
+	getche ();
 	return 0;
 }
