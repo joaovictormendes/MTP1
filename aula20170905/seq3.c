@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	float a,b,c,d,e,media;
 	printf ("Digite a primeira nota: \n")
@@ -17,5 +16,6 @@ void main ()
 	scanf ("%f", &e);
 	media = (a+b+c+d+e)/14;
 	printf ("A media das notas sera: %f", media);
+	getche ();
 	return 0;
 }
