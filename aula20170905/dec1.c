@@ -1,8 +1,7 @@
 #include <iostream>
 #include <stdio.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	float num;
 	printf ("Digite o numero: \n")
