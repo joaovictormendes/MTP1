@@ -1,8 +1,7 @@
-#include <iostream>
 #include <stdio.h>
-using namespace std;
+#include <conio.h>
 
-void main ()
+int main ()
 {
 	float b,h, area;
 	printf ("Digite a base do paralelogramo: \n")
@@ -11,5 +10,6 @@ void main ()
 	scanf ("%f", &h);
 	area = b*h;
 	printf ("A area do paralelogramo sera: %f", area);
+	getche ();
 	return 0;
 }
