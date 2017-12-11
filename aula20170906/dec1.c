@@ -1,6 +1,5 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
 void main ();
 {
@@ -29,5 +28,6 @@ void main ();
 		else
 		printf("\nO numero e impar!\n");
 	}
+	getche ();
 	return 0;
 }
