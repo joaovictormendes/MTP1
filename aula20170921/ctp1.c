@@ -1,7 +1,6 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <ctype.h>
-using namespace std;
 
 int main ()
 {
@@ -15,5 +14,6 @@ int main ()
 	}
 	printf ("\nA mensagem em letras maiusculas sera: %s.\n", str);
 	system ("pause");
+	getche();
 	return 0;
 }
