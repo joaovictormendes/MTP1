@@ -1,7 +1,6 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <math.h>
-using namespace std;
 
 int main ()
 {
@@ -16,5 +15,6 @@ int main ()
 	result = sqrt(var1 - 2 * ladob * ladoc * cos(angulo));
 	printf ("\nO outro lado do triangulo sera: %f.\n", result);
 	system ("pause");
+	getche();
 	return 0;
 }
