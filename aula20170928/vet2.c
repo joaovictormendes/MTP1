@@ -1,5 +1,5 @@
 #include <stdio.h>
-using namespace std;
+#include <conio.h>
 
 int main ()
 {
@@ -22,5 +22,6 @@ int main ()
 	printf ("\nO vetor invertido sera: ");
 	for (k = 0; k < 10; k++)
 		printf ("%d" , vet[k]);
+	getche();
 	return 0;
 }
