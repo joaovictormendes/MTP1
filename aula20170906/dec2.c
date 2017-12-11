@@ -1,11 +1,9 @@
-#include <iostream>
+#include <conio.h>
 #include <stdlib.h>
-
 #include <time.h>
 #include <stdio.h>
-using namespace std;
 
-void main ();
+int main ();
 {
 	srand(time(0));
 	int num, flag = 0, var, var2, num2, num3;
@@ -24,10 +22,11 @@ void main ();
 	if (num2 == var + 101)
 	frag++;
 	var2 = rand()%100;
-	printf ("Digite a multiplicação de %d por 3: ", var2);
+	printf ("Digite a multiplicaÃ§Ã£o de %d por 3: ", var2);
 	scanf("%d", &num3);
 	if (num3 == var2 * 3)
 	flag++;
 	printf ("Voce somou um total de %d pontos!\n", flag);
+	getche();
 	return 0;
 }
