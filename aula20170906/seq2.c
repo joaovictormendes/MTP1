@@ -1,6 +1,5 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
 void main ()
 {
@@ -11,5 +10,6 @@ void main ()
 	scanf(%f, &h);
 	area = (b*h)/2;
 	printf("\nArea: %d\n", area);
+	getche();
 	return 0;
 }
