@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
-void main ();
+int main ();
 {
 	int num, flag = 0;
 	printf("Digite o numero desejado: ");
@@ -19,5 +18,6 @@ void main ();
 	printf("\nEsse numero e' primo!\n");
 	else
 	printf("\nEsse numero nao e' primo!\n");
+	getche();
 	return 0;
 }
