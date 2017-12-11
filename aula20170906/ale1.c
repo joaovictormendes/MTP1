@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main ();
+int main ();
 {
 	srand(time(0));
 	int var, var2;
