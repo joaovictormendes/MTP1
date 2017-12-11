@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
-void main()
+int main()
 {
 	int i;
 	unsigned int var = 0xFACA8421;
@@ -12,5 +11,6 @@ void main()
 	{
 		printf ("O conteudo do endereco %p sera: %x \n", y, *y);
 	}
-	system ("Pause");
+	getche();
+	return 0;
 }
