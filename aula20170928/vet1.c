@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-using namespace std;
+#include <conio.h>
 
 int main ()
 {
@@ -18,5 +18,6 @@ int main ()
 	}
 	media = soma/10000;
 	printf ("\nA media sera: %f!\n", media);
+	getche();
 	return 0;
 }
