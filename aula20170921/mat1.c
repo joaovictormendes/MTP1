@@ -1,7 +1,6 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <math.h>
-using namespace std;
 
 int main ()
 {
@@ -20,5 +19,6 @@ int main ()
 	result = sqrt(result);
 	printf ("\nAs distancias entre os pontos sera: %lf.\n", result);
 	system ("pause");
+	getche();
 	return 0;
 }
