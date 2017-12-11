@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
-void main ();
+int main ();
 {
 	int num, fat;
 	printf("Digite o numero desejado: ");
@@ -12,5 +11,6 @@ void main ();
 		fat = fat * 1;
 	}
 	printf ("\nFatorial: %d", fat);
+	getche();
 	return 0;
 }
