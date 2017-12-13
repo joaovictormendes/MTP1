@@ -1,7 +1,6 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <complex.h>
-using namespace std;
 
 int main ()
 {
@@ -16,5 +15,6 @@ int main ()
 	double complex z2 = (r2 + i2 + I);
 	printf("Resultado = %lf + %lf.\n", creal(z1*z2), cimag(z1*z2));
 	system ("pause");
+	getche();
 	return 0;
 }

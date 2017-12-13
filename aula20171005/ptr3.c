@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
-void main()
+int main()
 {
 	int vetor[] = {0x0F,0xFF,0xFFFF,0xFFFFFF,0x80000001,0xFFFFFFFF}, flag=0, flag2 = 0,i;
 	unsigned char *y = (unsigned char*)&vetor;
@@ -16,5 +15,6 @@ void main()
 		}
 	}
 	printf ("A quantidade de bytes varridos foram %d e %d com pelo menos um bit igual a 1. \n", flag2, flag);
-	system ("Pause");
+	getche();
+	return 0;
 }

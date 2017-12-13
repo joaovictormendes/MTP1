@@ -1,6 +1,5 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
 int main()
 {
@@ -15,5 +14,6 @@ int main()
         }
         else
         printf("Dados invalidos!");
-	system("pause");
+	getche();
+	return 0;
 }

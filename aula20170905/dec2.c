@@ -1,10 +1,9 @@
-#include <iostream>
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-using namespace std;
+#include <conio.h>
 
-void main ()
+int main ()
 {
 	srand(time(0));
 	float num, num2, var;
@@ -29,5 +28,6 @@ void main ()
 		printf ("O numero sorteado foi %f. \n", var)
 		printf ("A soma resultou em um numero impar!\n")
 	}
+	getche ();
 	return 0;
 }

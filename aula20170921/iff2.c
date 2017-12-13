@@ -1,7 +1,6 @@
-#include <iostream>
+#include <conio.h>
 #include <math.h>
 #include <stdio.h>
-using namespace std;
 
 int main ()
 {
@@ -23,5 +22,6 @@ int main ()
 	printf ("\nResultado em float: %.15f.", result1);
 	printf ("\nResultado em double: %f.\n", result2);
 	system ("pause");
+	getche();
 	return 0;
 }

@@ -24,7 +24,7 @@ void impar()
 	}
 }
 
-void main ()
+int main ()
 {
 	int n;
 	printf ("Digite 1 para mostrar os numeros impares e 2 para mostrar os pares: ");
@@ -36,5 +36,6 @@ void main ()
 			impar();
 		else
 			printf ("\nComando invalido!\n");
-	getch();
+	getche();
+	return 0;
 }

@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
-void main()
+int main()
 {
 	float var1, var2, soma,i,j,k;
 	printf ("Digite dois numeros reais: ");
@@ -23,5 +22,6 @@ void main()
 	{
 		printf ("O conteudo da soma do endereco da %p sera: %x\n", y3, *y3);
 	}
-	system ("Pause");
+	getche();
+	return 0;
 }

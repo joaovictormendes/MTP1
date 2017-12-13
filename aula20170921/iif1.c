@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <iostream>
+#include <conio.h>
 #include <stdlib.h>
 #include <time.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	int i;
 	float n, flag=0, num;
@@ -21,5 +20,6 @@ void main ()
 		}
 		printf("%f.\n", flag);
 	} while (n<=1);
-	system ("pause");
+	getche();
+	return 0;
 }

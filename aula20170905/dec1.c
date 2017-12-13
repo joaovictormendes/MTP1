@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
-void main ()
+int main ()
 {
 	float num;
 	printf ("Digite o numero: \n")
@@ -17,5 +16,6 @@ void main ()
 	printf ("O numero e multiplo de 5!\n")
 	if (num%7 == 0)
 	printf ("O numero e multiplo de 7!\n")
+	getche ();
 	return 0;
 }

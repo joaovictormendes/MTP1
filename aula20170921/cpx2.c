@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <complex.h>
+#include <conio.h>
+
 int main()
 {
     double complex Z1, Z2;
@@ -12,5 +14,6 @@ int main()
     Z2=conj(Z1);
     mult= rZ1*creal(Z2) + iZ1*cimag(Z2);
     printf("O resultado e: %lf + %lf*i", creal(mult), cimag(mult));
+    getche();
     return 0;
 }

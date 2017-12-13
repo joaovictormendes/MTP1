@@ -1,8 +1,7 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
-using namespace std;
 
-void main ();
+int main ();
 {
 	int base, pot;
 	printf("Digite o numero que sera a base: ");
@@ -14,5 +13,6 @@ void main ();
 		base =  base * base;
 	}
 	printf("\nResultado: %d\n", base);
+	getche();
 	return 0;
 }

@@ -1,7 +1,6 @@
-#include <iostream>
+#include <conio.h>
 #include <stdio.h>
 #include <math.h>
-using namespace std;
 
 int main ()
 {
@@ -14,5 +13,6 @@ int main ()
 	x = numer/deno;
 	printf("\nResultado = %lf.\n", x);
 	system ("pause");
+	getche();
 	return 0;
 }

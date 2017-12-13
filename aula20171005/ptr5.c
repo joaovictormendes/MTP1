@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-using namespace std;
+#include <conio.h>
 
-void main()
+int main()
 {
 	srand(time(0));
 	int vetor[1000], i, j, flag=0;
@@ -23,5 +23,6 @@ void main()
 		}
 	}
 	printf ("Ou seja, foram encontrados %d bytes iguais %u.\n", flag, var);
-	system ("Pause");
+	getche();
+	return 0;
 }
